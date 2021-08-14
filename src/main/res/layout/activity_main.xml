@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="168dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="76dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="My country"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="30"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="69dp"
+        android:layout_height="56dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:foregroundTint="@color/white"
+        android:inputType="textPersonName"
+        android:shadowColor="@color/white"
+        android:text="Egypt"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="22"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="154dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Made by ELMASRY"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="219dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="374dp"
+        android:layout_height="127dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="The goal of this app. is to provide people with some information about Egypt one of the favourite destionations to tourists"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="388dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="67dp"
+        android:layout_height="20dp"
+        android:text="Made at"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        tools:layout_editor_absoluteY="539dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="109dp"
+        android:layout_height="69dp"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="518dp"
+        tools:srcCompat="@drawable/_rhjupqy_400x400" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
